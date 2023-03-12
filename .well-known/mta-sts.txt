@@ -1,2 +1,5 @@
-#HOST       #TTL    #TYPE    #VALUE
-_mta-sts    3600    TXT      "v=STSv1; id=20220317000000Z"
+version: STSv1
+mode: enforce
+mx: mx1.forwardemail.net
+mx: mx2.forwardemail.net
+max_age: 1209600
